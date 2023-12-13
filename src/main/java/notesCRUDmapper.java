@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class notesCRUDmapperSolution {
+public class notesCRUDmapper {
 
     static AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
             .build();
